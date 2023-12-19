@@ -13,7 +13,7 @@ export default function Header() {
 
   // detect whether user has scrolled the page down by 10px
   const scrollHandler = () => {
-    window.pageYOffset > 10 ? setTop(false) : setTop(true)
+    window.scrollY > 10 ? setTop(false) : setTop(true)
   }  
 
   useEffect(() => {
@@ -23,7 +23,7 @@ export default function Header() {
   }, [top])
 
   return (
-    <header className={`fixed w-full z-30 md:bg-opacity-90 transition duration-300 ease-in-out ${!top ? 'bg-background backdrop-blur-sm shadow-lg' : ''}`}>
+    <header className={`fixed w-full z-30 md:bg-opacity-90 transition duration-300 ease-in-out ${!top ? 'bg-background backdrop-blur-sm ' : ''}`}>
       <div className="max-w-6xl mx-auto px-5 sm:px-6">
         <div className="flex items-center justify-between h-16 md:h-20">
 
@@ -36,16 +36,16 @@ export default function Header() {
           <div className='hidden md:flex md:grow'>
             <ul className='flex grow justify-center flex-wrap items-end gap-8'>
               <li>
-                <Link href="/airdrop" className='text-2xl font-medium text-gray-200 hover:text-white transition duration-150 ease-in-out uppercase'>Airdrop</Link>
+                <Link href="/airdrop" className='text-2xl font-medium text-gray-400 hover:text-white transition duration-300 ease-in-out uppercase'>Airdrop</Link>
               </li>
               <li>
-                <Link href="/leaderboard" className='text-2xl font-medium text-gray-200 hover:text-white transition duration-150 ease-in-out uppercase'>Leaderboard</Link>
+                <Link href="/leaderboard" className='text-2xl font-medium text-gray-400 hover:text-white transition duration-300 ease-in-out uppercase'>Leaderboard</Link>
               </li>
               <li>
-                <Link href="/devs" className='text-2xl font-medium text-gray-200 hover:text-white transition duration-150 ease-in-out uppercase'>Devs</Link>
+                <Link href="/devs" className='text-2xl font-medium text-gray-400 hover:text-white transition duration-300 ease-in-out uppercase'>Devs</Link>
               </li>
               <li>
-                <Link href="/about" className='text-2xl font-medium text-gray-200 hover:text-white transition duration-150 ease-in-out uppercase'>About</Link>
+                <Link href="/about" className='text-2xl font-medium text-gray-400 hover:text-white transition duration-300 ease-in-out uppercase'>About</Link>
               </li>
             </ul>
           </div>
