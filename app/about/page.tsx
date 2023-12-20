@@ -125,7 +125,7 @@ export default function About() {
                 {/* Go to airdrop */}
                 <div className="w-full flex flex-col items-center pt-20 pb-32" data-aos="zoom-in-down">
                     <h2 className="text-5xl text-primary leading-tight font-bold pb-8">Have an Early Access Invite?</h2>
-                    <Link href="/airdrop" className="btn-sm text-primary bg-sky-500 hover:bg-primary transition duration-300 px-8">
+                    <Link href="/" className="btn-sm text-primary bg-sky-500 hover:bg-primary transition duration-300 px-8">
                         <span className="text-xl uppercase tracking-widest font-semibold">Claim your airdrop</span>
                     </Link>
                     <p className="text-lg text-secondary leading-tight font-semibold pt-8 text-center"><Link href="/devs" className="font-bold text-blue-600 hover:text-blue-300 transition duration-300">Click here</Link> if you're a developer</p>
