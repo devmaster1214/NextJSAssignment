@@ -118,7 +118,7 @@ export default function About() {
                     <h2 className="text-4xl lg:text-5xl text-primary font-bold leading-tight tracking-none pb-8" data-aos="fade-up">Airdrop timeline</h2>
                     <h3 className="text-2xl text-secondary font-semibold leading-tight pb-8" data-aos="fade-up">The Blast Community Airdrop is split between Early Access Members (50%) and Developers (50%).</h3>
                     <p className="text-xl text-primary font-semibold leading-tight max-w-3xl pb-16" data-aos="fade-up">The Early Access airdrop is now live. You can earn airdrop points by bridging to Blast and inviting friends. Airdrop points can be redeemed in May.</p>
-                    <img src="/images/blast-timeline-about.webp" className="pb-16" data-aos="zoom-out"></img>
+                    <img src="/images/blast-timeline-about.webp" className="w-full pb-16" data-aos="zoom-out"></img>
                     <p className="text-xl text-primary font-semibold leading-tight pb-16" data-aos="fade-down">The developer airdrop goes live in January when the Blast Testnet launches. Learn more in our <Link href="/devs" className=" text-blue-600 font-bold transition duration-300 hover:text-blue-300">developer docs.</Link></p>
                 </div>
 
