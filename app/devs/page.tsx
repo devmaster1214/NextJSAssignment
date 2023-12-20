@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function About() {
+export default function Devs() {
     return (
         <section className="relative bg-background">
             <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -124,11 +124,11 @@ export default function About() {
 
                 {/* Go to airdrop */}
                 <div className="w-full flex flex-col items-center pt-20 pb-32" data-aos="zoom-in-down">
-                    <h2 className="text-5xl text-primary leading-tight font-bold pb-8">Have an Early Access Invite?</h2>
+                    <h2 className="text-5xl text-primary leading-tight font-bold pb-8">Need More Info?</h2>
+                    <p className="text-lg text-secondary leading-tight font-semibold max-w-2xl pb-8 text-center">More docs will be available when the Blast Developer Airdrop and Testnet launches in January. In the meantime, join our Discord to learn more.</p>
                     <Link href="/airdrop" className="btn-sm text-primary bg-sky-500 hover:bg-primary transition duration-300 px-8">
-                        <span className="text-xl uppercase tracking-widest font-semibold">Claim your airdrop</span>
+                        <span className="text-xl uppercase tracking-widest font-semibold">Join Blast Discord</span>
                     </Link>
-                    <p className="text-lg text-secondary leading-tight font-semibold pt-8 text-center"><Link href="/devs" className="font-bold text-blue-600 hover:text-blue-300 transition duration-300">Click here</Link> if you're a developer</p>
                 </div>
             </div>
         </section>

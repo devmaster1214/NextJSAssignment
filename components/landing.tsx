@@ -37,7 +37,7 @@ export default function Landing() {
             </div>
           </div>
           <div className="pb-12 md:pb-16 flex justify-center">
-            <InviteCode/>
+            <InviteCode />
           </div>
         </div>
 
