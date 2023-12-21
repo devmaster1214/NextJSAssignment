@@ -16,11 +16,16 @@ const config: Config = {
       colors: {
         primary: "#3b82f6",
         secondary: "#2dd4bf",
-        background: "#000211"
+        background: "#000211",
+        text: '#EAEAEA'
       },
       textColor: {
-        primary: '#EAEAEA',
+        primary: '#DADADA',
         secondary: '#BCC6DE',
+        main: "#3b82f6",
+      },
+      fontFamily: {
+        logo : "fantasy"
       }
     }
   },

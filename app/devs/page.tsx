@@ -65,7 +65,7 @@ export default function Devs() {
                         }
                     </div>
                     <p className="w-full text-3xl text-center text-primary font-semibold" data-aos="fade-up">Compatable with</p>
-                    <div className="w-full flex flex-row justify-center items-center gap-8">
+                    <div className="w-full flex flex-row justify-center items-center gap-8" data-aos="fade-up">
                         <img src="/images/letterhead/letterhead-hardhat.webp" alt="Hardhat"></img>
                         <img src="/images/letterhead/letterhead-foundry.webp" alt="foundry"></img>
                     </div>

@@ -2,7 +2,7 @@ import InviteCode from "./invite-code";
 
 export default function Landing() {
   return (
-    <section className="relative bg-background">
+    <section className="min-h-[100vh] relative bg-background">
 
       {/* Illustration behind landing page */}
       <div className="absolute left-1/2 top-1/4 transform -translate-x-1/2 bottom-0 pointer-events-none -z-1" aria-hidden="true">
@@ -30,10 +30,10 @@ export default function Landing() {
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
 
           {/* Section header */}
-          <div className="text-center pb-24 md:pb-32 pt-24">
-            <h1 className="text-5xl md:text-6xl text-white font-bold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">The L2 that helps you earn more <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">ETH</span></h1>
+          <div className="text-center pb-18 md:pb-24 pt-24">
+            <h1 className="text-5xl md:text-6xl text-white font-bold leading-tight tracking-none mb-4" data-aos="zoom-y-out">The L2 that helps you earn more <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">ETH</span></h1>
             <div className="max-w-3xl mx-auto">
-              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">The only Ethereum L2 with native yield for ETH and stablecoins. Airdrop now live.</p>
+              <p className="text-xl text-secondary mb-8" data-aos="zoom-y-out" data-aos-delay="150">The only Ethereum L2 with native yield for ETH and stablecoins. Airdrop now live.</p>
             </div>
           </div>
           <div className="pb-12 md:pb-16 flex justify-center">
