@@ -6,7 +6,6 @@ import RecentJoin from "@/components/recentjoin";
 export default function Leaderboard() {
     return (
         <section className="relative bg-background h-[100vh]">
-
             <div className="absolute left-1/2 top-1/4 transform -translate-x-1/2 bottom-0 pointer-events-none -z-1" aria-hidden="true">
                 <svg xmlns="http://www.w3.org/2000/svg" width="100vw" height="100vh" viewBox="0 0 1440 779" fill="none">
                 <g filter="url(#filter0_f_4775_12747)">

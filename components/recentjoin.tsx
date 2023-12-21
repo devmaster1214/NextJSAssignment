@@ -11,8 +11,8 @@ const people = Array(50).fill(
 export default function RecentJoin () {
   
   return (
-    <div className="pb-4 lg:pb-12 w-full lg:min-w-[300px]" data-aos="fade-up" data-aos-delay="500">
-      <div className="flex flex-row items-end justify-between my-4 lg:my-8">
+    <div className="pb-4 lg:pb-12 w-full lg:w-[300px]" data-aos="fade-up" data-aos-delay="500">
+      <div className="flex flex-row items-end justify-between my-4 lg:my-6">
         <h1 className="text-2xl text-primary font-bold leading-tight tracking-normal">Recent Joins</h1>
       </div>
       <div className="w-full h-[1px] bg-gray-500"></div>
