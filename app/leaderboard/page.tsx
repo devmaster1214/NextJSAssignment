@@ -25,7 +25,7 @@ export default function Leaderboard() {
                 </svg>
             </div>
 
-            <div className="px-6 lg:px-36 h-full flex">
+            <div className="px-6 lg:px-36 h-full">
                 <div className="pt-12 md:pt-20 w-full h-full">
                     <div className="relative w-full h-full flex flex-col lg:flex-row-reverse justify-start lg:justify-center gap-4 lg:gap-24 py-4 lg:py-12">
                         <RecentJoin />

@@ -1,7 +1,6 @@
 "use client";
 
-import LeaderBoard from "@/components/leaderboard";
-import RecentJoin from "@/components/recentjoin";
+import InviteCode from "@/components/invite-code";
 
 export default function Airdrop() {
     return (
@@ -25,11 +24,10 @@ export default function Airdrop() {
                 </svg>
             </div>
 
-            <div className="px-6 lg:px-36 h-full flex">
+            <div className="px-6 lg:px-36 h-full">
                 <div className="pt-12 md:pt-20 w-full h-full">
-                    <div className="relative w-full h-full flex flex-col lg:flex-row-reverse justify-start lg:justify-center gap-4 lg:gap-24 py-4 lg:py-12">
-                        <RecentJoin />
-                        <LeaderBoard />
+                    <div className="w-full h-full flex items-center justify-center">
+                        <InviteCode></InviteCode>
                     </div>
                 </div>
             </div>
