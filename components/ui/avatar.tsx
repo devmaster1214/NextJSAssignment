@@ -52,7 +52,7 @@ export default function Avatar () {
                         >
                         <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-sm">
                             <div className="bg-white px-4 pb-4 pt-5 sm:p-6 sm:pb-4">
-                                <div className="sm:flex sm:items-start">
+                                <div className="w-full">
                                     <div className="mt-3 text-center sm:mt-0 sm:text-left">
                                         <Dialog.Title as="h2" className="text-2xl font-semibold leading-6 text-gray-900 uppercase text-center">
                                             Edit profile
