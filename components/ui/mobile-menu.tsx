@@ -57,7 +57,7 @@ export default function MobileMenu() {
           show={mobileNavOpen}
           as="nav"
           id="mobile-nav"
-          className="absolute top-full h-screen pb-16 z-20 left-0 w-full overflow-scroll bg-background"
+          className="absolute top-full h-screen pb-16 z-20 right-0 w-full sm:w-[320px] overflow-scroll bg-background scrollbar-hide"
           enter="transition ease-out duration-200 transform"
           enterFrom="opacity-0 -translate-y-2"
           enterTo="opacity-100 translate-y-0"
@@ -65,20 +65,20 @@ export default function MobileMenu() {
           leaveFrom="opacity-100"
           leaveTo="opacity-0"
         >
-          <ul className='flex flex-col grow justify-start flex-wrap items-center gap-8 px-5 py-8'>
-            <li>
-              <Link href="/airdrop" className={`text-2xl font-semibold text-gray-400 hover:text-white transition duration-300 ease-in-out uppercase ${pathname == '/airdrop' && 'bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400'}`}>Airdrop</Link>
+          <ul className='flex flex-col justify-start flex-wrap items-center gap-8 px-5 py-8'>
+            <li className="w-full">
+              <Link href="/airdrop" className={`btn w-full rounded-lg text-2xl font-semibold hover:bg-gray-700 transition duration-300 ease-in-out uppercase ${pathname == '/airdrop' ? 'text-main' : 'text-gray-200'}`}>Airdrop</Link>
             </li>
-            <li>
-              <Link href="/leaderboard" className={`text-2xl font-semibold text-gray-400 hover:text-white transition duration-300 ease-in-out uppercase ${pathname == '/leaderboard' && 'bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400'}`}>Leaderboard</Link>
+            <li className="w-full">
+              <Link href="/leaderboard" className={`btn w-full rounded-lg text-2xl font-semibold hover:bg-gray-700 transition duration-300 ease-in-out uppercase ${pathname == '/leaderboard' ? 'text-main' : 'text-gray-200'}`}>Leaderboard</Link>
             </li>
-            <li>
-              <Link href="/devs" className={`text-2xl font-semibold text-gray-400 hover:text-white transition duration-300 ease-in-out uppercase ${pathname == '/devs' && 'bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400'}`}>Devs</Link>
+            <li className="w-full">
+              <Link href="/devs" className={`btn w-full rounded-lg text-2xl font-semibold hover:bg-gray-700 transition duration-300 ease-in-out uppercase ${pathname == '/devs' ? 'text-main' : 'text-gray-200'}`}>Devs</Link>
             </li>
-            <li>
-              <Link href="/about" className={`text-2xl font-semibold text-gray-400 hover:text-white transition duration-300 ease-in-out uppercase ${pathname == '/about' && 'bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400'}`}>About</Link>
+            <li className="w-full">
+              <Link href="/about" className={`btn w-full rounded-lg text-2xl font-semibold hover:bg-gray-700 transition duration-300 ease-in-out uppercase ${pathname == '/about' ? 'text-main' : 'text-gray-200'}`}>About</Link>
             </li>
-          </ul>       
+          </ul>
         </Transition>
       </div>
     </div>

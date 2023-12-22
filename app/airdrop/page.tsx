@@ -1,10 +1,11 @@
 "use client";
 
+import Bridge from "@/components/bridge";
 import InviteCode from "@/components/invite-code";
 
 export default function Airdrop() {
     return (
-        <section className="relative bg-background h-[100vh]">
+        <section className="relative bg-background min-h-[100vh]">
             <div className="absolute left-1/2 top-1/4 transform -translate-x-1/2 bottom-0 pointer-events-none -z-1" aria-hidden="true">
                 <svg xmlns="http://www.w3.org/2000/svg" width="100vw" height="100vh" viewBox="0 0 1440 779" fill="none">
                 <g filter="url(#filter0_f_4775_12747)">
@@ -24,10 +25,10 @@ export default function Airdrop() {
                 </svg>
             </div>
 
-            <div className="px-6 lg:px-36 h-full">
+            <div className="px-6 lg:px-36 h-full md:pt-24">
                 <div className="pt-12 md:pt-20 w-full h-full">
-                    <div className="w-full h-full flex items-center justify-center">
-                        <InviteCode></InviteCode>
+                    <div className="w-full md:h-full flex items-center justify-start md:justify-center pb-24 md:pb-0">
+                        <Bridge />
                     </div>
                 </div>
             </div>
